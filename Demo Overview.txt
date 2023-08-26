@@ -1,0 +1,100 @@
+Demo level completed
+
+a) Data-Microsoft Fabric hierarchy
+b) SSBI Example 
+
+How many types of data available?
+	Three types	a) Structured	b) Semi-structured 	c)Un-structured
+
+How many formats of data available?
+	Two formats
+	a) File	b) Database Tables
+
+
+How many types of IT applications aviailable and their differences?
+	Two types
+	a) OLTP: Online Transaction Processing
+
+		1. Day - Day business data
+		2. Data supports viewing, insert, update, delete etc. operations
+		3. Data Volatality
+		4. Less number of records available [normalized model--More tables, small size tables]
+		5. Data volume size is less
+		6. General public use it [they use "Desktop/Web forms" for their operations]
+		
+
+	b) OLAP: Online Analytical Processing
+		1. Day - Day Analysis of data
+		2. Data supports viewing majorly[ no support to insert, update, delete etc. operations]
+		3. Data Non-Volatality [no change of data]
+		4. More number of records available [de-normalized model-Less tables available, more sized tables]
+		5. Data volume size is more, supports history and incremental refresh operations
+		6. Analytical or Management Team  use it [they use "Reports / Dashboards" for their operations]
+What is BI?
+	Business Intelligence, Intelligent information of a business. Simply decision making data of a business.
+
+What is the Input and Output of BI?
+	Input: Any type, Any format, Any storage
+	Output: Reports / Dashboards
+
+What are the layers required to construct a BI project?
+	a) ETL layer: Data Gathering
+	b) DWH Layer: Data Storing
+	c) Semantic Layer: Data Analysis
+	d) Reporting Layer: Data Presentation
+
+What is MSBI?
+	a) The first BI end-end solution from Microsoft
+	b) MSBI is a SSBI suite with multiple tools to perform end-end operations and generate reports and dashboards
+		from data.
+	Tools:
+	SSIS: SQL Server Integration Services: ETL process: Data Extract, Transform, and Load
+	SSAS: SQL Server Analysis Services: Semantic process: Data Storage [Cube] and Analytical operations
+	SSRS: SQL Server Reporting Services: Reporting process: Data Presentation
+	
+	Announced: 2005
+What is Power BI?
+
+	Simple definition: Adding more Power to Existing BI
+	Detailed defintiion:
+		Power BI is a low-code cloud and on-premise supportive Self Service BI application with 
+		multiple concepts to generates reports and dashboards from data.
+
+	Concepts: Power Query, Power Pivot, Power View, Power Map etc.
+	Announced: 2013-July
+
+What is Azure BI?
+	
+	Azure: It is MicroSoft Cloud platform where we see multiple services [iaas, paas, ssas etc.].
+		Ex: Infrastructure, Data Science, AI, BI, Networking, VM, Storage etc.
+
+	If you use BI components in Azure platform, then we can consider as "Azure BI"[not physically available]
+
+	Major components
+	a)ADF: Azure Data Factory: Cloud ETL Process
+	b) AAS: Azure Analysis Services: Cloud Analytical component
+	c) Synapse: Cloud semantics, storage and data science related implementation component
+	d) Snowflake: More storage area etc.
+
+	Note: MSBI, Power BI softwares physically available.
+
+	Google drive: STorage cloud
+	One Drive: Storage cloud
+
+
+
+
+
+
+
+
+What is Power Platform?
+
+What is Microsoft Fabric?
+	It is a AI based solution with multiple components
+	a) Power BI	b)ADF	c) Synapse	d) Data Activator
+
+
+	Announced: 2023-June
+
+Power BI Components...
