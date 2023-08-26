@@ -1,18 +1,20 @@
-Demo level completed
+Demo level completed the below concepts.
 
 a) Data-Microsoft Fabric hierarchy
 b) SSBI Example 
 
 How many types of data available?
+
 	Three types	a) Structured	b) Semi-structured 	c)Un-structured
 
 How many formats of data available?
-	Two formats
+	Two types of formats
 	a) File	b) Database Tables
 
 
 How many types of IT applications aviailable and their differences?
 	Two types
+
 	a) OLTP: Online Transaction Processing
 
 		1. Day - Day business data
